@@ -114,11 +114,7 @@ input{border:0 none; border-top-left-radius:13px; outline-style:none; color:#999
 .white-z a:hover{border: none;font-size:12px;}
 }
 
-
-
-/*@media (max-width:768px) 
-魅族*/
-@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5){
+@media (max-width:768px) {
 .white-a{ width:98%; padding-left:1%; padding-right:1%;}
 .white-1{width:100%; }
 .white-b{ width:100%; float: right; padding-top:1%}
@@ -165,9 +161,7 @@ input{border:0 none; border-top-left-radius:13px; outline-style:none; color:#999
 .gray-z a{border: none;font-size:12px; color:#FFF}
 .gray-z a:hover{border: none;font-size:12px;color:#FFF}
 }
-/*@media (max-width:768px)
-魅族*/
-@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5) {
+@media (max-width:768px) {
 .gray-x{ width:98%; padding-left:1%; padding-right:1%;}
 .gray-a{width:49.5%; }
 .gray-b{ display: none}
@@ -203,9 +197,7 @@ input{border:0 none; border-top-left-radius:13px; outline-style:none; color:#999
 .blue-z a{border: none;font-size:12px; color:#FFF}
 .blue-z a:hover{border: none;font-size:12px;color:#FFF}
 }
-/*@media (max-width:768px)
-魅族*/
-@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5) {
+@media (max-width:768px) {
 .blue-x{ width:80%; padding-left:10%; padding-right:10%;}
 .bluebox{ padding-left:6%}
 .blue-a{width:27%; margin:2%}
@@ -236,9 +228,7 @@ input{border:0 none; border-top-left-radius:13px; outline-style:none; color:#999
 .purple-z a{border: none;font-size:12px;}
 .purple-z a:hover{border: none;font-size:12px;}
 }
-/*@media (max-width:768px)
-魅族*/
-@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5) {
+@media (max-width:768px) {
 .purple-x{ width:98%; padding-left:1%; padding-right:1%;}
 .purple-a{width:100%; }
 .purple-b{ width:100%}
