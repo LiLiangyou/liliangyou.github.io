@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{font-family:"方正姚体"}
+.nva{height:100px;  background:#000; position:fixed; width:100%; z-index:9999;} 
+.nva-logo{margin-left:120px}
+
+.nva ul{float: left; width:100px; height:100px;}
+.nva ul li {width:100px; display:inline-block; text-align:center; font-size:14px; line-height:14px}
+.nva ul li a{height:100px; width:100px; display:block; color:#FFF}
+	
+.Tec ul{position: absolute; left:400px; top:0}
+.Tec ul li a:hover{height:100px; width:100px; font-size:16px; background:#fff; color:#000; display:block;}
+
+.Mus ul{position: absolute; left:500px; top:0}
+.Mus ul li a:hover{height:100px; width:100px; font-size:16px; background:#444; display:block;}
+
+.Third ul{position: absolute; left:600px; top:0}
+.Third ul li a:hover{height:100px; width:100px; font-size:16px; background:#0C9; display:block;}
+
+.Fourth ul{position: absolute; left:700px; top:0}
+.Fourth ul li a:hover{height:100px; width:100px; font-size:16px; background:#06C; display:block;}
+
+.Fifth ul{position: absolute; left:800px; top:0}
+.Fifth ul li a:hover{height:100px; width:100px; font-size:16px; background:#669; display:block;}
+
+input{border:0 none; border-top-left-radius:13px; outline-style:none; color:#999; background:#444}
+.search{width:208px; height:30px; border:2px solid #444; border-bottom-right-radius:15px; border-top-left-radius:15px; position: absolute; right:80px; top:30px;}
+.search input[type="text"]{width:178px; height:30px; vertical-align:top;}
+.search input[type="button"]{width:30px; height:30px; vertical-align:top; background: url(../images/search.png) no-repeat}
+
+
+
+.stop1{width:100%; height:170px; background:#fff; text-align:center;}
+.stop1 a{ width:290px; height:30px; display:inline-block; margin-top:122px; font-size:22px; border:1px #000 solid; border-bottom-right-radius:15px; border-top-left-radius:15px;}
+
+.white{ width:100%; height:580px; background:#FFF; text-align:center;}
+.white-a{ width:1150px; height:500px; background:#fff; margin:auto; position:relative}
+.white-a li{float:left;}
+.white-b a{display:inline-block; height:35px; width:140px; line-height:35px; background: #fff; border-radius:8px; border: dotted 1px #000; position:absolute; right:0px; bottom:-45px; color:#000; font-size:15px}
+.left0{position:absolute; left:0px}
+.left1{position:absolute; left:660px}
+.left2{position:absolute; left:908px}
+.left3{position:absolute; left:660px; top:240px}
+.white-a .white-1 li ul{display:none; position:absolute; left:0}
+.white-a .white-2 li ul{display:none; position:absolute; left:660px}
+.white-a .white-3 li ul{display:none; position:absolute; left:908px}
+.white-a .white-4 li ul{display:none; position:absolute; left:660px; top:240px}
+.white-a ul li:hover ul{display:block}
+
+
+.stop2{width:100%; height:100px; background:#444; text-align:center;}
+.stop2 a{ width:290px; height:30px; display:inline-block; margin-top:50px; font-size:22px; border:1px #000 solid; border-bottom-right-radius:15px; border-top-left-radius:15px;}
+.gray{ width:100%; height:580px; background:#444; text-align:center;}
+.gray-a{ width:1150px; height:500px; background:#444;  margin:auto; position:relative}
+.gray-a li{float:left;}
+.gray-b a{display: inline-block; height:35px; width:140px; line-height:35px; background: #555; border-radius:8px; border: dotted 1px #000000; position:absolute; right:0px; bottom:-45px; color:#000; font-size:15px}
+.gray0{position:absolute; left:0px}
+.gray1{position:absolute; left:280px}
+.gray2{position:absolute; right:0px}
+.gray3{position:absolute; left:0px; top:252px}
+.gray4{position:absolute; right:0px; top:252px}
+.gray-a .gray-1 li ul{display:none; position:absolute; left:0}
+.gray-a .gray-2 li ul{display:none; position:absolute; left:280px}
+.gray-a .gray-3 li ul{display:none; position:absolute; right:0px}
+.gray-a .gray-4 li ul{display:none; position:absolute; left:0px; top:252px}
+.gray-a .gray-5 li ul{display:none; position:absolute; right:0px; top:252px}
+.gray-a ul li:hover ul{display:block}
+
+
+.stop3{width:100%; height:100px; background:#0c9; text-align:center;}
+.stop3 a{width:290px; height:30px; display:inline-block; margin-top:50px; font-size:22px; border:1px #000 solid; border-bottom-right-radius:15px; border-top-left-radius:15px;}
+
+.green{height:580px; background:#0c9; text-align:center;}
+.green-a{width:1150px; height:500px; background:#0c9;  margin:auto; position:relative}
+.green-a li{float:left;}
+.green-b a{display: inline-block; height:35px; width:140px; line-height:35px; background:#0c9; border-radius:8px; border: dotted 1px #000000; position:absolute; right:0px; bottom:-45px; color:#000; font-size:15px}
+.green0{position:absolute; left:0px}
+.green1{position:absolute; left:323px}
+.green2{position:absolute; right:0px}
+.green3{position:absolute; left:0px; top:230px}
+.green4{position:absolute; left:404px; top:230px}
+.green-a li a:hover{ border:2px solid #06c}
+
+
+.stop4{width:100%; height:200px; background:#06c; text-align:center;}
+.stop4 a{ width:290px; height:30px; display:inline-block; margin-top:50px; font-size:22px; border:1px #000 solid; border-bottom-right-radius:15px; border-top-left-radius:15px;}
+
+.blue{height:480px; background:#06c; text-align:center;}
+.blue-a{ width:922px; height:310px; background:#06c;  margin:auto; position:relative}
+.blue-a a{display: inline-block; width:100px; height:100px; color:#FFF }
+.blue-b a{display: inline-block; height:35px; width:140px; line-height:35px; background:#06c; border-radius:8px; border: dotted 1px #000000; position:absolute; right:0; bottom:-135px; color:#000; font-size:15px}
+
+.blue-1{width:100px; height:100px; border:2px solid #0FC; line-height:100px; font-size:20px; color:#FFF }
+.blue-1:hover{width:100px; height:100px; border:2px solid #0FC; line-height:100px; font-size:23px; color:#FFF; background:#66C }
+.blue-1 a:focus{background:#66c; color:#fff; font-size:23px}
+
+.blue-2{width:100px; height:100px; border:2px solid #0FC; line-height:100px; font-size:20px; color:#FFF }
+.blue-2:hover{width:100px; height:100px; border:2px solid #0FC; line-height:100px; font-size:23px; color:#FFF; background: #F96 }
+.blue-2 a:focus{background:#f96; color:#fff; font-size:23px}
+
+.blue-3{width:100px; height:100px; border:2px solid #0FC; line-height:100px; font-size:20px; color:#FFF }
+.blue-3:hover{width:100px; height:100px; border:2px solid #0FC; line-height:100px; font-size:23px; color:#FFF; background:#F9F }
+.blue-3 a:focus{background:#f9f; color:#fff; font-size:23px}
+
+.blue-4{width:100px; height:100px; line-height:100px; font-size:18px; background:#66c; color:#FFF; border:2px solid #0FC; display:none}
+.blue-5{width:100px; height:100px; line-height:100px; font-size:18px; background:#f96; color:#FFF; border:2px solid #0FC; display:none}
+
+.box1{ position:absolute; left:0px; top:0px}
+.box2{ position:absolute; left:206px; top:0px}
+.box3{ position:absolute; left:410px; top:0px}
+.box4{ position:absolute; left:614px; top:0px}
+.box5{ position:absolute; left:818px; top:0px}
+.box6{ position:absolute; left:103px; top:103px}
+.box7{ position:absolute; left:308px; top:103px}
+.box7:hover .blue-4{display: block}
+.box8{ position:absolute; left:512px; top:103px}
+.box8:hover .blue-5{display: block}
+.box9{ position:absolute; left:716px; top:103px}
+.box10{ position:absolute; left:206px; top:206px}
+.box11{ position:absolute; left:410px; top:206px}
+.box12{ position:absolute; left:614px; top:206px}
+
+.box7-2{ position:absolute; left:101px; top:-2px}
+.box7-4{ position:absolute; left:-105px; top:-2px}
+.box8-2{ position:absolute; left:101px; top:-2px}
+.box8-4{ position:absolute; left:-105px; top:-2px}
+
+
+.stop5{width:100%; height:100px; background:#669; text-align:center;}
+.stop5 a{ width:290px; height:30px; display:inline-block; margin-top:50px; font-size:22px; border:1px #000 solid; border-bottom-right-radius:15px; border-top-left-radius:15px;}
+
+.purple{height:580px; background:#669; text-align:center;}
+.purple-a{ width:1153px; height:483px; background:#669;  margin:auto; position:relative}
+.purple-a li{float:left;}
+.purple0{position:absolute; left:0;}
+.purple1{position:absolute; left:193px}
+.purple2{position:absolute; left:386px}
+.purple3{position:absolute; left:579px}
+.purple4{position:absolute; left:772px}
+.purple5{position:absolute; right:0}
+.purple6{position:absolute; left:0; top:260px}
+.purple7{position:absolute; left:193px; top:260px}
+.purple8{position:absolute; left:386px; top:260px}
+.purple9{position:absolute; left:579px; top:260px}
+.purple10{position:absolute; left:772px; top:260px}
+.purple11{position:absolute; right:0; top:260px}
+.purple-a li a{ border:2px solid #636; border-radius:1px; display:block}
+.purple-a li a:hover{ border:3px solid #C00}
+.purple-b a{ display: inline-block; height:35px; width:140px; line-height:35px; background:#669; border-radius:8px; border: dotted 1px #000000; position:absolute; right:0px; bottom:-45px; color:#000; font-size:15px}
+ 
+
+.bott{height:280px; background:#000; padding-top:120px}
+.bott-a{width:1050px; height:110px; background:#000; margin:auto; color:#888; border-top:1px solid #999; border-bottom:1px solid #777}
+.bott-b{font-size:20px; display:inline-block; width:200px; height:120px; float:left; padding-left:10px; padding-top:22px}
+.bott-a ul{ padding-top:26px; width:1100px}
+.bott-a li{font-size:16px; float:left; width:120px; height:45px; text-align:center}
+.bott a{color:#888}
+.bott-c{width:1050px; height:50px; background:#000; margin:60px auto; text-align:center; color:#999; font-size:18px;}
+
+/*position:absolute; left:50%; top:50%; margin-left:-550px; margin-top:-250px*/
