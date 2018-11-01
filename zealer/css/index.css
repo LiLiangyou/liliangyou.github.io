@@ -212,7 +212,7 @@ input{border:0 none; border-top-left-radius:13px; outline-style:none; color:#999
 .purple-x{ width:1200px; background-color:#fff; margin:0 auto; position:relative;}
 .purple-a{width:50%; float:left; height:100%;}
 .purple-b{width:50%; float:left; height:100%;}
-.purplebox{width:31.5%; float:left; margin:0.9%;box-sizing:border-box; border:solid 1px #000000}
+.purplebox{width:31.5%; float:left; margin:0.9%;box-sizing:border-box; border:solid 0px #000000}
 .purple-z{float:right;height:35px; width:140px; padding-top:50px; padding-right:10px}
 .purple-z a{display:inline-block; height:35px; width:140px; line-height:35px; background:#fff; border-radius:8px; border: dotted 1px #000; color:#000; font-size:15px;
 }
