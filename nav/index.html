@@ -438,6 +438,7 @@
 
 <script>
     if (window.innerWidth > 0) {
+        console.log(window.innerWidth+"===="+window.innerHeight);
         var clk = document.getElementsByClassName("clk")[0];
         var frame = document.getElementsByClassName("frame")[0];
         var secondHand = document.getElementsByClassName("odd-even")[0];
@@ -531,8 +532,8 @@
             }
             j = j > text_s.length-1 ? 0 : j;
             text_s[j].className = "s";
+            console.log(window.innerWidth+"===="+window.innerHeight);
             j++;
-            console.log(j);
             if (j % 2 == 0) {
                 photo_a.className="c"
             } else {
@@ -545,6 +546,7 @@
 
 
     window.onresize = function () {
+
         var url = window.location.href;
         var parm = parseInt(Math.random() * 10);
         if (url.lastIndexOf('?') > -1) {
@@ -553,8 +555,9 @@
             url = url + "?" + parm;
         }
         window.location.href = url;
+        console.log(window.innerWidth+"===="+window.innerHeight);
         // window.location.reload();
-        console.log(parm);
+//        console.log(parm);
 //        clkHeight();
 //        h = document.body.offsetWidth / 1.5;
 //        document.body.style.backgroundPositionY = -(h - window.innerHeight) / 2 + "px";
@@ -563,7 +566,6 @@
 //        boss.style.marginTop = -h / 2 + "px";
 //        console.log(boss.offsetHeight);
     };
-    //console.log(window.onresize);
 </script>
 </body>
 </html>
