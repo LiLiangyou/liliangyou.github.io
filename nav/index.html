@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -129,12 +129,11 @@
         .text {
             width: 100%;
             text-align: center;
-            padding-top: 10px;
+            padding-top: 8px;
             color: #cfcfcf;
         }
 
         .text p {
-            padding-top: 6px;
             font-size: 16px;
             line-height: 24px;
         }
@@ -256,7 +255,7 @@
 
             .clk {
                 width: 35%;
-                margin-top: 15%;
+                margin-top: 12%;
             }
 
             .main {
@@ -288,7 +287,7 @@
             }
 
             .about {
-                color: #888;
+                color: #999;
                 letter-spacing: 1px;
             }
 
@@ -298,12 +297,12 @@
             }
 
             .text p {
-                font-size: 14px;
-                line-height: 24px;
+                font-size: 13px;
+                line-height: 22px;
             }
 
             .text p span {
-                letter-spacing: -6px;
+                letter-spacing: -2px;
             }
 
             .m-1 {
@@ -344,9 +343,9 @@
             }
 
             .hint {
-                padding-top: 18px;
+                padding-top: 24px;
                 letter-spacing: 21px;
-                color: #bdbdbd;
+                color: #cfcfcf;
                 font-size: 11px;
             }
 
@@ -457,13 +456,6 @@
 
         var i = 0;
         var j = 0;
-
-        //    while (liLH > liRH) {
-        //        left.style.fontSize = i-2 + "px";
-        //        liLH = left.offsetHeight;
-        //        liRH = right.offsetHeight;
-        //        console.log(left.style.fontSize)
-        //    }
         function clkHeight() {
             clk.style.height = frame.offsetWidth + "px";
             main.style.marginTop = -main.offsetHeight / 2 + "px";
@@ -549,25 +541,8 @@
 
 
     window.onresize = function () {
-
-        var url = window.location.href;
-        var parm = parseInt(Math.random() * 10);
-        if (url.lastIndexOf('?') > -1) {
-            url = url + parm;
-        } else {
-            url = url + "?" + parm;
-        }
-        window.location.href = url;
-        console.log(window.innerWidth+"===="+window.innerHeight);
-        // window.location.reload();
-//        console.log(parm);
-//        clkHeight();
-//        h = document.body.offsetWidth / 1.5;
-//        document.body.style.backgroundPositionY = -(h - window.innerHeight) / 2 + "px";
-//
-//        boss.style.height = h + "px";
-//        boss.style.marginTop = -h / 2 + "px";
-//        console.log(boss.offsetHeight);
+         window.location.reload();
+        clkHeight();
     };
 </script>
 </body>
