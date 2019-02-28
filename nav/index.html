@@ -378,14 +378,15 @@
     </style>
 </head>
 <body>
-<div>
+
+<div class="m-back">
     <div class="m-1"></div>
     <div class="m-2"></div>
     <div class="m-3"></div>
     <div class="m-4"></div>
 </div>
 
-<div id="boss">
+<div id="boss" style="display: none">
     <div class="clk">
         <div class="frame"></div>
         <div class="hours"></div>
@@ -437,7 +438,9 @@
         <div class="photo"><a href="#">图像&设计<br/>类作品</a></div>
     </div>
 </div>
-
+<div id="wx" style="display: block; text-align: center;">
+    <p><br/><br/>当前未加载JavaScript及CSS<br/>请点击“原网页”进行访问，或在浏览器中打开</p>
+</div>
 <script>
     if (window.innerWidth > 0) {
         console.log(window.innerWidth+"===="+window.innerHeight);
@@ -453,9 +456,14 @@
         var text_s = text.getElementsByTagName("span");
         var a = document.getElementsByTagName("a");
         var photo_a=document.getElementsByClassName("photo")[0].firstElementChild;
+        var wx=document.getElementById("wx");
 
         var i = 0;
         var j = 0;
+
+        wx.style.display="none";
+        boss.style.display="block";
+
         function clkHeight() {
             clk.style.height = frame.offsetWidth + "px";
             main.style.marginTop = -main.offsetHeight / 2 + "px";
@@ -541,9 +549,26 @@
 
 
     window.onresize = function () {
+
+//        var url = window.location.href;
+//        var parm = parseInt(Math.random() * 10);
+//        if (url.lastIndexOf('?') > -1) {
+//            url = url + parm;
+//        } else {
+//            url = url + "?" + parm;
+//        }
+//        window.location.href = url;
+        console.log(window.innerWidth+"===="+window.innerHeight);
          window.location.reload();
         clkHeight();
+//        h = document.body.offsetWidth / 1.5;
+//        document.body.style.backgroundPositionY = -(h - window.innerHeight) / 2 + "px";
+//
+//        boss.style.height = h + "px";
+//        boss.style.marginTop = -h / 2 + "px";
+//        console.log(boss.offsetHeight);
     };
+    //console.log(window.onresize);
 </script>
 </body>
 </html>
