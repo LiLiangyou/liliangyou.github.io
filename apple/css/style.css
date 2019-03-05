@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -60,7 +60,7 @@ li {
 .adv-wrapper-text {
     width: 980px;
     height: 40px;
-    font-size: 11px;
+    font-size: 12px;
     text-align: right;
     color: #a8a8aa;
     margin: 0 auto;
@@ -532,24 +532,26 @@ nav {
 }
 @media screen and (max-width: 980px) {
     .standalone-module span.discounts{
-        font-size: 12px;
+        font-size: 11px;
     }
     h2{
-        font-size: 22px;
+        font-size: 20px;
     }
     .standalone-module span.font-normal-size {
-        font-size: 26px;
+        font-size: 24px;
     }
     .xr-text, .xs-text, .content h3{
-        font-size: 16px;
+        font-size: 14px;
     }
     .bot-sosumi span{
-        font-size: 7px;
+        font-size: 6px;
+        line-height: 8px;
     }
     .bgc-blck{
-        min-width:740px;
-    }
-    .bot{
-        min-width:980px;
-    }
+         width:84%;
+         margin: 0 auto;
+     }
+    /*.bot{*/
+        /*min-width:980px;*/
+    /*}*/
 }
