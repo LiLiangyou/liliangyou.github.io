@@ -1,0 +1,18 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "北京 故宫 (AAAAA景区)",
+    "bannerImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542661004355&di=f203b60d4f2232401b65a2848d0efb56&imgtype=0&src=http%3A%2F%2Fimg3.dwstatic.com%2Fcoc%2F1708%2F367669813155%2F1503714663711.jpg",
+    "gallaryImgs": ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542661004355&di=f203b60d4f2232401b65a2848d0efb56&imgtype=0&src=http%3A%2F%2Fimg3.dwstatic.com%2Fcoc%2F1708%2F367669813155%2F1503714663711.jpg", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542660874732&di=a76820841be0adb277bf36bca0cde03b&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180503%2F3c6da95904ad402cb793f2849ccc0b62.jpeg"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": "【上午场】故宫成人票凭身份证快速入园（淡季）"
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "儿童票"
+      }, {
+        "title": "特惠票"
+      }]
+  }
+}
