@@ -123,7 +123,7 @@ window.onscroll = function () {
     var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
     for (var l = n; l < len; l++) {
         //懒加载
-        if (aImg[l].offsetTop < seeHeight + scrollTop+160) {
+        if (aImg[l].offsetTop < seeHeight + scrollTop+100) {
             if (aImg[l].getAttribute('src') == 'img/works/load.png') {
                 aImg[l].src = aImg[l].getAttribute('lazy-src');
             }
